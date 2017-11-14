@@ -1,8 +1,6 @@
-# OpenWeatherMap
-OpenWeatherMap API with AutoIt
-# Project Title
+# OpenWeatherMap API
 
-One Paragraph of project description goes here
+Request current weather with OpenWeatherMap API.
 
 ## Getting Started
 
