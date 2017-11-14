@@ -36,7 +36,7 @@ Func OWM_RequestCoord($iLatitude, $iLongitude, $sAPIKey)
 	Local $sReq = "http://api.openweathermap.org/data/2.5/" _
 		& "weather?lat=" & $iLatitude & "&lon=" & $iLongitude & "&mode=xml&" _
 		& "appid=" & $sAPIKey
-
+		
 	Local $sRet = InetRead($sReq, 1)
 	If @error Then Return False
 	$sRet = BinaryToString($sRet)
